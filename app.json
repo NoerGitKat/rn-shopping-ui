@@ -1,0 +1,12 @@
+{
+  "name": "rn-shopping-ui",
+  "displayName": "rn-shopping-ui",
+  "expo": {
+    "name": "rn-shopping-ui",
+    "slug": "rn-shopping-ui",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
