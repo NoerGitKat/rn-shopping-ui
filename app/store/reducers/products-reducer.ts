@@ -1,6 +1,6 @@
 import PRODUCTS from "../../../data";
 
-interface IProduct {
+export interface IProduct {
   id: string;
   ownerId: string;
   title: string;
@@ -9,12 +9,12 @@ interface IProduct {
   price: number;
 }
 
-interface IInitialState {
+export interface IProductsInitialState {
   availableProducts: IProduct[];
   userProducts: IProduct[];
 }
 
-const initialState: IInitialState = {
+const initialState: IProductsInitialState = {
   availableProducts: PRODUCTS,
   userProducts: PRODUCTS.filter((product) => product.ownerId === "u1"),
 };
